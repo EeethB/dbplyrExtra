@@ -6,7 +6,6 @@
 #' @examples
 #'
 
-
 as_db_tibble <- function(dbp, name) {
   print("Hello, world!")
 }

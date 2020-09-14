@@ -14,4 +14,3 @@ This package is not yet on CRAN, so install using
   
 # Solution
 `dbplyrExtra` solves this by adding the function `as_db_tibble()`. To move a `dbplyr` object into physical memory, it must be passed to `as_tibble()`. On the other hand, if a table is still too large, `as_db_tibble()` executes the generated SQL *and writes results to the database*.
-
